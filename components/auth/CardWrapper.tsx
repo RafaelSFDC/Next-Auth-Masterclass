@@ -28,7 +28,8 @@ const CardWrapper = ({
       <CardHeader>
         <Header label={headerLabel} />
       </CardHeader>
-      {children}
+      <CardContent>{children}</CardContent>
+
       {showSocial && (
         <CardFooter>
           <Social />
